@@ -61,6 +61,6 @@ jobs:
   # 4. Push Docker Image
   # ---------------------------------
       
-      - name: Push Docker Image
-        run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/flask-python-app:${{ github.sha }}
+      # - name: Push Docker Image
+      #   run: |
+      #     docker push ${{ secrets.DOCKER_USERNAME }}/flask-python-app:${{ github.sha }}
